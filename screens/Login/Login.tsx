@@ -40,7 +40,7 @@ export default class LoginScreen extends React.Component<LoginScreenProps, Login
   async login(): Promise<void> {
     const user = await getUser(this.state.user);
       if (this.state.user.uname == "") {
-        alert("No Username Detected");
+        alert("No Username Detected lol");
         return;
       } if (this.state.user.password == "") {
         alert("No Password Detected");
